@@ -1,0 +1,17 @@
+{
+  "weekDayName": "Monday",
+  "date": "2022-09-26",
+  "calGoal": 100,
+  "calActual": 10,
+  "calPercent": "10%",
+  "food": [
+    {
+      "time": "2022-09-26T15:46:00",
+      "mealId": "id_1"
+    },
+    {
+      "time": "2022-09-26T18:46:00",
+      "mealId": "id_2"
+    }
+  ]
+}

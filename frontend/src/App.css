@@ -1,0 +1,69 @@
+:root {
+  --clr-grotto: #025492;
+  --clr-light: #f5f5f5;
+  --clr-yellow: #ffd53d;
+  --clr-turkiz: #31b4f2;
+  --clr-blue: #0000ff;
+  --clr-darkblue: #000c20;
+  --clr-bencekek: rgba(3, 102, 214, 0.3);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--clr-light);
+
+  position: relative;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-meal {
+  background-color: var(--clr-yellow);
+  color: var(--clr-darkblue);
+
+  border: none;
+
+  font-size: 18px;
+  font-weight: 200;
+
+  padding: 10px;
+  margin-top: 10px;
+
+  transition: all 0.1s ease-out;
+
+  cursor: pointer;
+}
+
+.add-meal:hover {
+  letter-spacing: 1px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
